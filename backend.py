@@ -5,7 +5,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_mongodb import MongoDBAtlasVectorSearch
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
-from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
 MONGO_URI = st.secrets["MONGO_URI"]
